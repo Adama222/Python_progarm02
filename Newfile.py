@@ -3,7 +3,7 @@ pre_Y = int(time.strftime("%Y"))
 bir_Y = int(input("Enter the birth year:"))
 age = pre_Y - bir_Y
 print("Your age is ", age)
-print("Total days is ", age * 365)
+print("Total days is ", age * 366)
 
 import time
 day = int(input("Enter your date:"))
